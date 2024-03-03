@@ -1,0 +1,10 @@
+server:
+  port: 8282
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 14091999
+    sql:
+      init:
+        mode: always
